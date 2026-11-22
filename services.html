@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кав’ярня та магазин — Cafemino</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">Cafemino</a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" class="active" data-i18n="nav_services">Кав'ярня та магазин</a></li>
+                    <li><a href="gallery.html" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <div class="lang-switcher">
+                    <button data-lang="uk" class="lang-btn active">UA</button>
+                    <button data-lang="ru" class="lang-btn">RU</button>
+                    <button data-lang="en" class="lang-btn">EN</button>
+                </div>
+                <button class="mobile-menu-toggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1 data-i18n="services_page_title">Наші товари та послуги</h1>
+                <p data-i18n="services_page_subtitle">Ароматна кава, чай, магазин зерен та швидка доставка у Кременчуці</p>
+            </div>
+        </section>
+
+        <section class="section services-list-section">
+            <div class="container">
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="images/photo-04.svg" alt="Кав'ярня Cafemino" loading="lazy">
+                        </div>
+                        <div class="service-info">
+                            <h3 data-i18n="serv_1_title">Кав'ярня та авторські напої</h3>
+                            <p data-i18n="serv_1_desc">Затишний простір на вул. Шевченка, 32 та в ТРЦ «Галактика». Пропонуємо свіжозварену каву, авторські напої та смачні десерти в приємній атмосфері.</p>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="images/photo-05.svg" alt="Магазин кави та чаю Cafemino" loading="lazy">
+                        </div>
+                        <div class="service-info">
+                            <h3 data-i18n="serv_2_title">Магазин кави та чаю</h3>
+                            <p data-i18n="serv_2_desc">Спеціалізований асортимент кавових зерен та чаю високої якості. Допоможемо обрати улюблені сорти для домашнього приготування.</p>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="images/photo-06.svg" alt="Доставка кави Cafemino" loading="lazy">
+                        </div>
+                        <div class="service-info">
+                            <h3 data-i18n="serv_3_title">Швидка доставка по Кременчуку</h3>
+                            <p data-i18n="serv_3_desc">Зручна послуга доставки свіжозвареної кави та улюблених напоїв прямо до вас. Замовляйте за телефоном або через соцмережі.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <a href="index.html" class="logo">Cafemino</a>
+                <p data-i18n="footer_slogan">Затишна кав’ярня та магазин кави та чаю в Кременчуці.</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_hours_title">Графік роботи</h4>
+                <p>пн-нд: 8:00 - 20:00 (без вихідних)</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_contacts_title">Контакти</h4>
+                <p>вул. Шевченка, 32, Кременчук</p>
+                <p>Тел: <a href="tel:+380974350008">+380 97 435 0008</a></p>
+                <p>Email: <a href="mailto:cafemino.kremen@gmail.com">cafemino.kremen@gmail.com</a></p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/cafemino.bar/" target="_blank" rel="noopener">Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2025 Cafemino. Кременчук, Україна. <span data-i18n="all_rights">Всі права захищені.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
